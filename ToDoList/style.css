@@ -1,0 +1,59 @@
+html {
+  background-color: rgb(94, 190, 190);
+}
+
+.header {
+  margin-top: 10%;
+  display: flex;
+  background-color: rgb(94, 190, 190);
+}
+.header .header-title {
+  margin: auto;
+  border-radius: 1rem;
+}
+.header .header-title p {
+  font-size: 50px;
+}
+
+.main-div {
+  background-color: rgb(94, 190, 190);
+  display: flex;
+  padding-left: 25%;
+}
+.add-board,
+.board-list {
+  margin-top: 10px;
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: aqua;
+  width: 400px;
+  height: 500px;
+}
+.main-div .board-list {
+  margin-left: 10px;
+}
+.main-div .add-board .board {
+  border-color: white;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 5px;
+  width: auto;
+  display: flex;
+}
+
+.main-div .board-list .mission {
+  display: flex;
+  border-color: white;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 5px;
+  max-width: 400px;
+}
+.main-div .board-list .mission .mission-p {
+  margin-left: 10px;
+}
+
+.main-div .board-list .mission .mission-p p {
+  max-width: 370px;
+  word-wrap: break-word;
+}
